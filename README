@@ -1,0 +1,17 @@
+Eventually planning to set up SMS to open my apartment door.  For now just organizing the project a bit from the pygooglevoice API.
+
+Note:  Need BeautifulSoup python libraries installed so it can be imported.
+
+Note:  To automate API requests you will need a file in your home directory called .gvoice of the same formatas the gvoice.config file.
+
+Running an example script:
+1. Put the script one level above the googlevoice/ directory.  It is expecting the python libs inside of googlevoice/ to be in place.  Alternatively, fix the imports.
+
+Example Project Structure:
+
+examples/
+googlevoice/
+gvoice.config
+parse_sms.py
+README
+
